@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](getting-started.md)
-* [pPrerequisites](prerequisites.md)
+* [Prerequisites](prerequisites.md)
 * [Installation](installation.md)
 * [File Structure](file-structure.md)
 * [Routing](routing.md)

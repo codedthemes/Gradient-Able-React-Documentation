@@ -1,12 +1,12 @@
 ---
-description: Elite Able - React Redux Bootstrap 4 Admin Dashboard Template
+description: Next - React + Redux Bootstrap 4 Admin Template
 ---
 
 # Introduction
 
-Elite Able is the most developer friendly 🤝 & highly customisable 🛠 **React + Redux Dashboard Admin Template** based on Create React App, Redux & Bootstrap 4.
+Next is the most developer friendly & highly customization **React + Redux Admin Template** based on Create React App, Redux & Bootstrap 4.
 
-We’ve followed best industry standards to make our product easy, fast & highly scalable to work with. Elite Able is the most convenient react admin dashboard template for developers as its made with React Components, Create React App, Redux, clean code and fully documented which allows you to build eye-catching, high-quality, high-performance responsive single page applications.
+We’ve followed best industry standards to make our product easy, fast & highly scalable to work with. **Next** is the most convenient react admin dashboard template for developers as its made with React Components, Create React App, Redux, clean code and fully documented which allows you to build eye-catching, high-quality, high-performance responsive single page applications.
 
 ## Features 🤩
 
@@ -17,7 +17,7 @@ We’ve followed best industry standards to make our product easy, fast & highly
 * 1000+ Icons
 * Workable Application
 * Unlimited Color Options
-* Live Customizer
+* Live Customize
 * FREE Lifetime Updates
 * 6 months of free support included
 
@@ -26,8 +26,6 @@ We’ve followed best industry standards to make our product easy, fast & highly
 * Latest [Bootstrap](https://getbootstrap.com/) 4 Stable \(v4.3.1\)
 * SASS Powered
 * [Create React App](https://github.com/facebook/create-react-app) 
-* [Reactstrap](https://reactstrap.github.io/) \(Bootstrap 4 components\)
 * [Redux](https://redux.js.org/)
-* [Redux thunk](https://github.com/reduxjs/redux-thunk)
 * [React Router](https://github.com/ReactTraining/react-router) 
 

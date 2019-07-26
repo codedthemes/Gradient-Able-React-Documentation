@@ -10,7 +10,7 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 ## Configure route
 
-Open `elite-able/src/app/router.js` You will find the below example code. In below code we have show how you can add new page route.
+Open `next/src/app/router.js` You will find the below example code. In below code we have show how you can add new page route.
 
 {% code-tabs %}
 {% code-tabs-item title="router.js" %}

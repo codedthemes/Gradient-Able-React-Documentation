@@ -1,5 +1,5 @@
 ---
-description: Things to know before you start with Elite Able
+description: Things to know before you start with Next
 ---
 
 # Getting Started
@@ -7,10 +7,6 @@ description: Things to know before you start with Elite Able
 ## ReactJS
 
 [React](https://reactjs.org/) -A JavaScript library for building user interfaces. React is the core of our template. If you don't know what React is or don't know how to use it, we strongly recommend checking the React before start doing anything with this theme.
-
-## Reactstrap
-
-[Reactstrap](https://reactstrap.github.io/) - Easy to use React Bootstrap 4 components
 
 ## Create React App \(CLI\)
 

@@ -4,5 +4,5 @@
 
 ## Get in touch
 
-**Website**: [http://phoenixcoded.net/](http://phoenixcoded.net/)
+**Website**:[ http://codedthemes.com/](https://codedthemes.com/)
 

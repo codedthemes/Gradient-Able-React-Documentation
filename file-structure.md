@@ -1,13 +1,11 @@
 # File Structure
 
-You can download Elite-able .zip file from Themeforest, Unzip the zip file that you have **downloaded** from Themeforest. Inside the zip file, you will find the `elite-able/`folder and `documentation.html` file for documentation.
-
 ## Project structure
 
-Under the `elite-able/`folder you will find the project folder structure.
+Under the `next/`folder you will find the project folder structure.
 
 ```text
-elite-able/
+next/
 ├── .gitignore
 ├── package.json            -> Package json file.
 ├── README.md               -> Creat react app Readme file
@@ -39,7 +37,7 @@ elite-able/
 
 ## SCSS structure
 
-Under the `elite-able/assets/scss/`folder you will find the following folder structure.
+Under the `next/assets/scss/`folder you will find the following folder structure.
 
 ```text
 SCSS/
