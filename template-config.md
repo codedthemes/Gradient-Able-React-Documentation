@@ -1,4 +1,4 @@
-# template-config
+# Template Config
 
 `elite-able/templateConfig.js` file contain template lyaout customization related settings.
 

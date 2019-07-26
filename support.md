@@ -3,7 +3,7 @@ description: >-
   https://themeforest.net/item/elite-able-bootstrap-4-angular-7-reactjs-admin-template/23951010/support
 ---
 
-# support
+# Support
 
 ### Please note that our support is limited only for those who have purchased our item.
 

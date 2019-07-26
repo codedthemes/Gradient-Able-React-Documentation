@@ -2,7 +2,7 @@
 description: Things to know before you start with Elite Able
 ---
 
-# getting-started
+# Getting Started
 
 ## ReactJS
 

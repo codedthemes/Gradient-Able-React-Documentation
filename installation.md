@@ -1,4 +1,4 @@
-# installation
+# Installation
 
 This React template is based on [create-react-app](https://github.com/facebook/create-react-app) and has its `README.md` which you can find very useful.
 

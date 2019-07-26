@@ -1,4 +1,4 @@
-# code-splitting
+# Code Splitting
 
 ## Code Splitting <a id="code-splitting"></a>
 

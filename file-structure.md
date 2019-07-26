@@ -1,4 +1,4 @@
-# file-structure
+# File Structure
 
 You can download Elite-able .zip file from Themeforest, Unzip the zip file that you have **downloaded** from Themeforest. Inside the zip file, you will find the `elite-able/`folder and `documentation.html` file for documentation.
 

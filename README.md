@@ -2,7 +2,7 @@
 description: Elite Able - React Redux Bootstrap 4 Admin Dashboard Template
 ---
 
-# README
+# Introduction
 
 Elite Able is the most developer friendly 🤝 & highly customisable 🛠 **React + Redux Dashboard Admin Template** based on Create React App, Redux & Bootstrap 4.
 

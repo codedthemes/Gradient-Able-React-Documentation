@@ -2,7 +2,7 @@
 description: 'Developed by  Ariful islam (Skype: arif25278)'
 ---
 
-# changelog
+# Changelog
 
 ## v1.0 - 05-23-2019
 

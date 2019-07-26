@@ -1,4 +1,4 @@
-# routing
+# Routing
 
 This template routing system based on [react-router](https://reacttraining.com/react-router/) and its package [react-router-dom,](https://reacttraining.com/react-router/web/guides/quick-start) it's also use code splitting for better performance.
 

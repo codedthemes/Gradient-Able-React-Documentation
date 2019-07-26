@@ -1,4 +1,4 @@
-# hire-us
+# Hire Us
 
 ## Currently we are not available for custom work service?
 
