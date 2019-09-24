@@ -10,114 +10,151 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 ## Configure route
 
-Open `next/src/app/router.js` You will find the below example code. In below code we have show how you can add new page route.
+Open `nextro/src/routse.js` and `nextro/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
 
 {% code-tabs %}
 {% code-tabs-item title="router.js" %}
 ```javascript
-// import external modules
-import React, { Component, Suspense, lazy } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Spinner from "../components/spinner/spinner";
+import { lazy } from 'react';
 
-// import internal(own) modules
-import MainLayoutRoute from "../layout/routes/mainLayoutRoute";
-import { SpinnerComponent } from "../components/spinner/Spinner";
+const Analytic = lazy(() => import("./views/dashboard/analytic"))
+const Sales = lazy(() => import("./views/dashboard/sales"))
+const Crypto = lazy(() => import("./views/dashboard/crypto"))
+const Project = lazy(() => import("./views/dashboard/project"))
+const HelpDesk = lazy(() => import("./views/dashboard/helpdesk"))
+const StatistcWidget = lazy(() => import("./views/widget/statisticWidget"))
+...
+...
+...
 
-const Analytic = lazy(() => import("../views/dashboard/analytic"));
-const Sales = lazy(() => import("../views/dashboard/sales"));
-
-
-class Router extends Component {
-   render() {
-      return (
-         <BrowserRouter basename="elite-able">
-            <Switch>
-               <MainLayoutRoute
-                exact
-                path="/"
-                title="Home"
-                name="Analytics Dashboard"
-                render={matchprops => (
-                  <Suspense fallback={<SpinnerComponent />}>
-                    <Analytic {...matchprops} />
-                  </Suspense>
-                )}
-              />
-              //Add new page route here
-              <MainLayoutRoute
-                exact
-                path="/sales"
-                title="Sales"
-                name="Sales Dashboard"
-                render={matchprops => (
-                  <Suspense fallback={<SpinnerComponent />}>
-                    <Sales {...matchprops} />
-                  </Suspense>
-                )}
-              />
-            </Switch>
-         </BrowserRouter>
-      );
-   }
-}
-
-export default Router;
+const Route = [
+  /* Dashboard */
+  { exact: true, path: "/dashboard/analyatics", name: "Analytic", component: Analytic },
+  { exact: true, path: "/dashboard/sales", name: "Sales", component: Sales },
+  ...
+  ...
+]
+export default Route
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
 ## Add menu item
 
-To add menu items you can use `elite-able/src/layout/components/sidebar/sidBarMenu/menus.js` file. Below code we have show how you can use new menu item.
-
-You can use `MenuSingle`for single menu item and `MultiMenu` for multiple menu items. You can also add badge to menu by using `badgeText`option and set badge color by using `badgeColor`Option.
+To add menu items you can use `nextro/src/menu-items.js` file. Below code we have show how you can use new menu item.
 
 {% code-tabs %}
 {% code-tabs-item title="menus.js" %}
 ```javascript
-import React, { Component } from "react";
-import { NavLink, Link } from "react-router-dom";
-import * as Icons from "react-feather";
-import MenuHelper from "./sideMenuHelp";
-import { Badge } from "./sideMenuHelp";
-
-class Menus extends Component {
-  render() {
-    return (
-      <MenuHelper>
-        <MenuHelper.Label labelText="Navigation" />
-        //Mulitiple menus
-        <MenuHelper.MultiMenu
-          name="Dashbord"
-          Icon={<Icons.Home size={14} />}
-          defaultSelect
-        >
-          <NavLink exact to="/" activeClassName="active">
-            Analytics
-          </NavLink>
-          <NavLink exact to="/sales" activeClassName="active">
-            Sales
-          </NavLink>
-          <NavLink exact to="/crypto" activeClassName="active">
-            Crypto
-          </NavLink>
-          <NavLink exact to="/project" activeClassName="active">
-            Project
-          </NavLink>
-          <NavLink exact to="/helpdesk" activeClassName="active">
-            Helpdesk
-            <Badge text="NEW" color="danger" />
-          </NavLink>
-        </MenuHelper.MultiMenu>
-        //Single Menu
-        <MenuHelper.MenuSingle path="/app/message" icon={<Icons.MessageCircle size={14} />} text="Message" />
-       </MenuHelper>
-      );
-   }
+export default {
+    items: [
+        {
+            id: 'navigation',
+            title: 'Navigation',
+            type: 'group',
+            icon: 'icon-navigation',
+            children: [
+                {
+                    id: 'dashboard',
+                    title: 'Dashboard',
+                    type: 'collapse',
+                    icon: 'feather icon-home',
+                    children: [
+                        {
+                            id: 'analytics',
+                            title: 'Analytics',
+                            type: 'item',
+                            url: '/dashboard/analytics'
+                        },
+                        {
+                            id: 'sales',
+                            title: 'Sales',
+                            type: 'item',
+                            url: '/dashboard/sales',
+                            badge: {
+                                title: 'NEW',
+                                type: 'badge-danger'
+                            }
+                        }
+                    ]
+                },
+            ]
+        },
+        ...
+        ...
+        ...
+        {
+            id: 'support',
+            title: 'Support',
+            type: 'group',
+            icon: 'icon-support',
+            children: [
+                {
+                    id: 'menu-level',
+                    title: 'Menu Levels',
+                    type: 'collapse',
+                    icon: 'feather icon-menu',
+                    children: [
+                        {
+                            id: 'menu-level-1.1',
+                            title: 'Menu Level 1.1',
+                            type: 'item',
+                            url: '#!',
+                        },
+                        {
+                            id: 'menu-level-1.2',
+                            title: 'Menu Level 2.2',
+                            type: 'collapse',
+                            children: [
+                                {
+                                    id: 'menu-level-2.1',
+                                    title: 'Menu Level 2.1',
+                                    type: 'item',
+                                    url: '#',
+                                },
+                                {
+                                    id: 'menu-level-2.2',
+                                    title: 'Menu Level 2.2',
+                                    type: 'collapse',
+                                    children: [
+                                        {
+                                            id: 'menu-level-3.1',
+                                            title: 'Menu Level 3.1',
+                                            type: 'item',
+                                            url: '#',
+                                        },
+                                        {
+                                            id: 'menu-level-3.2',
+                                            title: 'Menu Level 3.2',
+                                            type: 'item',
+                                            url: '#',
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'disabled-menu',
+                    title: 'Disabled Menu',
+                    type: 'item',
+                    url: '#',
+                    classes: 'nav-item disabled',
+                    icon: 'feather icon-power'
+                },
+                {
+                    id: 'sample-page',
+                    title: 'Sample Page',
+                    type: 'item',
+                    url: '/sample-page',
+                    classes: 'nav-item',
+                    icon: 'feather icon-sidebar'
+                }
+            ]
+        }
+    ]
 }
-
-export default Menus;
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

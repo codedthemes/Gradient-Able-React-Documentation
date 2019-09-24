@@ -7,8 +7,8 @@
 * [File Structure](file-structure.md)
 * [Routing](routing.md)
 * [Template Config](template-config.md)
+* [Layout Option](layout-option.md)
 * [Code Splitting](code-splitting.md)
 * [Support](support.md)
-* [Hire Us](hire-us.md)
 * [Changelog](changelog.md)
 

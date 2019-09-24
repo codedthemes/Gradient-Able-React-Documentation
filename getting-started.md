@@ -1,5 +1,5 @@
 ---
-description: Things to know before you start with Next
+description: Things to know before you start with Nextro
 ---
 
 # Getting Started

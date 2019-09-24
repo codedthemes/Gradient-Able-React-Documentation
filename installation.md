@@ -10,7 +10,7 @@ They are configured and hidden so that you can focus on the code.
 ## To get started follow this steps
 
 1. First of all it's required to Install [Node](https://nodejs.org/en/) and npm / [yarn](https://yarnpkg.com/lang/en/).
-2. Open your favorite console application \(Terminal, iTerm, Command Prompt etc.\). Navigate to the `enext/`folder and **Install packages**  : `npm i,` `npm install` or `yarn install`. This command will install all the required [Node.js ](https://nodejs.org/en/)modules into the `node_modules` directory inside `next/`folder. And now, you are ready to run the Next for the first time.
+2. Open your favorite console application \(Terminal, iTerm, Command Prompt etc.\). Navigate to the `nextro/`folder and **Install packages**  : `npm i,` `npm install` or `yarn install`. This command will install all the required [Node.js ](https://nodejs.org/en/)modules into the `node_modules` directory inside `nextro/`folder. And now, you are ready to run the Nextro for the first time.
 3. To run project locally: `npm start` or `yarn start` This command will runs the app in development mode. Open [http://localhost:3000](http://localhost:3000/) to view it in the browser.
 
    The page will automatically reload if you make changes to the code.

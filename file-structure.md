@@ -2,10 +2,10 @@
 
 ## Project structure
 
-Under the `next/`folder you will find the project folder structure.
+Under the `nextro/`folder you will find the project folder structure.
 
 ```text
-next/
+nextro/
 ├── .gitignore
 ├── package.json            -> Package json file.
 ├── README.md               -> Creat react app Readme file
@@ -15,41 +15,37 @@ next/
 │   ├── index.html
 │   └── manifest.json
 └── src/
-    ├── app/
-    |    ├── app.js
-    |    ├── router.js      -> Add routers for pages
+    ├── App/
+    |    ├── components     -> Template custom components
+    |    ├── layout         -> Layout components & routers
+    |    ├── index.js 
     ├── assets/
     |    ├── images/
-    |    ├── css/
-    |    ├── fonts/
-    |    ├── scss/          -> Template SCSS files, check folder structure below
-    ├── components/         -> Template custom components
+    |    ├── scss/          -> Template SCSS files, check folder structure below        
+    ├── Demo/               -> View files for all pages
     ├── containers/         -> Data fetching and then renders its corresponding sub-component
-    ├── layouts/            -> Layout components & routers
-    ├── redux/              -> Redux App actions, reducers, storeConfig & types
-    ├── utiliy/
-    ├── views/              -> View files for all pages
+    ├── hoc/
+    ├── store/              -> Redux App actions, reducers, storeConfig & types  
+    ├── config.js           -> Config. file to change layouts & menu color, width, image etc...
     ├── index.js            -> Application root js file
     ├── index.scss          -> Application main scss file
-    ├── registerServiceWorker.js
-    └── templateConfig.js   -> Config. file to change layouts & menu color, width, image etc...
+    ├── menu-item.js        -> Allication menu data
+    ├── route.js            -> Add routers for pages
+    ├── routes.js            -> Add routers for auth pages
+    └── serviceWorker.js
 ```
 
 ## SCSS structure
 
-Under the `next/assets/scss/`folder you will find the following folder structure.
+Under the `nextro/assets/scss/`folder you will find the following folder structure.
 
 ```text
 SCSS/
-├── core/                  -> Template core files
-├── layout/                -> Template layouts scss folder
-├── mixins/                -> Custom mixins scss folder
-├── other/                 -> Third party plugins customisation scss
-├── pages/                 -> Template extra pages
-├── theme-elements/        -> React views specific scss files
-├── _color.scss            -> All color variables
-├── _fonts.scss            -> Template font customizer
-├── _variable.scss         -> Template variables
+├── ng-module/             -> Third party plugins customisation scss
+├── settings/              -> Template variable scss folder
+├── theme/                 -> Layout and React views specific scss files
+├── layout-dark.scss       -> Application dark file
+├── layout-rtl.scss        -> Application RTL file
 ├── style.scss             -> Application main file
 ```
 
