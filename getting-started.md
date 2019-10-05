@@ -1,5 +1,5 @@
 ---
-description: Things to know before you start with Nextro
+description: Things to know before you start with Flat Able
 ---
 
 # Getting Started

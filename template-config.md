@@ -21,7 +21,7 @@ You can edit this file at **`[ ../src/config.ts ]`**
 ```javascript
 export default {
     defaultPath: '/dashboard/analytics',
-    basename: '/nextro/react/default', // only at build time to set, like //next/react/
+    basename: '/flat-able/react/default', // only at build time to set, like //next/react/
     layout: 'vertical', // vertical, horizontal
     subLayout: '', // horizontal-2
     collapseMenu: false, // mini-menu
