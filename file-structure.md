@@ -2,10 +2,10 @@
 
 ## Project structure
 
-Under the `nextro/`folder you will find the project folder structure.
+Under the `flat-able/`folder you will find the project folder structure.
 
 ```text
-nextro/
+flat-able/
 ├── .gitignore
 ├── package.json            -> Package json file.
 ├── README.md               -> Creat react app Readme file
@@ -37,7 +37,7 @@ nextro/
 
 ## SCSS structure
 
-Under the `nextro/assets/scss/`folder you will find the following folder structure.
+Under the `flat-able/src/assets/scss/`folder you will find the following folder structure.
 
 ```text
 SCSS/
