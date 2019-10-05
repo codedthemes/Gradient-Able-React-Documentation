@@ -10,7 +10,7 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 ## Configure route
 
-Open `nextro/src/routse.js` and `nextro/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
+Open `flat-able/src/routse.js` and `flat-able/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
 
 {% code-tabs %}
 {% code-tabs-item title="router.js" %}
@@ -41,7 +41,7 @@ export default Route
 
 ## Add menu item
 
-To add menu items you can use `nextro/src/menu-items.js` file. Below code we have show how you can use new menu item.
+To add menu items you can use `flat-able/src/menu-items.js` file. Below code we have show how you can use new menu item.
 
 {% code-tabs %}
 {% code-tabs-item title="menus.js" %}

@@ -1,6 +1,5 @@
 ---
-description: >-
-  https://themeforest.net/item/elite-able-bootstrap-4-angular-7-reactjs-admin-template/23951010/support
+description: template/23951010/support
 ---
 
 # Support

@@ -10,8 +10,7 @@ You can edit this file at **`[ ../src/config.ts ]`**
 | **subLayout** | - | String | `horizontal-2` \(only used for layout is horizontal\) |
 | **collapseMenu** | false | Boolean | `true`, `false` |
 | **layoutType** | menu-dark | String | `menu-dark`, `menu-light`, `dark` |
-| **headerBackColor** | header-default | String | `header-default`, `header-blue`, `header-red`, `header-purple`, `header-info`, `header-dark` |
-| **navBrandColor** | brand-blue | String | `navbar-default`, `navbar-blue`, `navbar-red`, `navbar-purple`, `navbar-info`, `navbar-dark` |
+| **headerBackColor** | header-dark | String | `header-blue`, `header-red`, `header-purple`, `header-info`,  `header-green`,`header-dark`  |
 | **rtlLayout** | false | Boolean | `true`, `false` |
 | **navFixedLayout** | true | Boolean | `true`, `false` |
 | **headerFixedLayout** | true | Boolean | `true`, `false` |
@@ -27,8 +26,7 @@ export default {
     subLayout: '', // horizontal-2
     collapseMenu: false, // mini-menu
     layoutType: 'menu-dark', // menu-dark, menu-light, dark
-    headerBackColor: '', // header-blue, header-red, header-purple, header-info, header-dark
-    navBrandColor: 'brand-blue', // brand-default, brand-blue, brand-red, brand-purple, brand-info, brand-dark
+    headerBackColor: 'header-dark', // header-blue, header-red, header-purple, header-green header-info, header-dark
     rtlLayout: false,
     navFixedLayout: true,
     headerFixedLayout: true,

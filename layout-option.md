@@ -12,8 +12,7 @@ You can edit this file at **`[ ../src/config.ts ]`**
 * subLayout: ' '
 * collapseMenu: `false`
 * layoutType: `menu-light`
-* headerBackColor: `header-default`
-* navBrandColor: `brand-blue`
+* headerBackColor: `header-dark`
 * rtlLayout: `false`
 * navFixedLayout: `true`
 * headerFixedLayout: `true`

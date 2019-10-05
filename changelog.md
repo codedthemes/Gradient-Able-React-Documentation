@@ -1,10 +1,10 @@
 ---
-description: Developed by  Codedthemes
+description: Developed by  Phoenixcoded
 ---
 
 # Changelog
 
-## v1.0 - 24-09-2019
+## v1.0 - Release
 
 * Initial release.
 
