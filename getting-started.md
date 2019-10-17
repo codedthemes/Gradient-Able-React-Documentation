@@ -1,5 +1,5 @@
 ---
-description: Things to know before you start with Flat Able
+description: Things to know before you start with Pangong
 ---
 
 # Getting Started
