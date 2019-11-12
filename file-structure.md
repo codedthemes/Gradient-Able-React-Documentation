@@ -2,10 +2,10 @@
 
 ## Project structure
 
-Under the `pangong/`folder you will find the project folder structure.
+Under the `mintone/`folder you will find the project folder structure.
 
 ```text
-pangong/
+mintone/
 ├── .gitignore
 ├── package.json            -> Package json file.
 ├── README.md               -> Creat react app Readme file
@@ -37,7 +37,7 @@ pangong/
 
 ## SCSS structure
 
-Under the `pangong/src/assets/scss/`folder you will find the following folder structure.
+Under the `mintone/src/assets/scss/`folder you will find the following folder structure.
 
 ```text
 SCSS/

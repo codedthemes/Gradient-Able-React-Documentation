@@ -10,27 +10,25 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 ## Configure route
 
-Open `pangong/src/routse.js` and `pangong/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
+Open `mintone/src/routse.js` and `mintone/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
 
 {% tabs %}
 {% tab title="router.js" %}
 ```javascript
 import { lazy } from 'react';
 
-const Analytic = lazy(() => import("./views/dashboard/analytic"))
-const Sales = lazy(() => import("./views/dashboard/sales"))
-const Crypto = lazy(() => import("./views/dashboard/crypto"))
-const Project = lazy(() => import("./views/dashboard/project"))
-const HelpDesk = lazy(() => import("./views/dashboard/helpdesk"))
-const StatistcWidget = lazy(() => import("./views/widget/statisticWidget"))
+const Server = lazy(() => import("./views/dashboard/server"))
+const Project = lazy(() => import("./views/dashboard/project/*"))
+const Shop = lazy(() => import("./views/dashboard/shop"))
+const Analaytics = lazy(() => import("./views/dashboard/analyatics"))
 ...
 ...
 ...
 
 const Route = [
   /* Dashboard */
-  { exact: true, path: "/dashboard/analyatics", name: "Analytic", component: Analytic },
-  { exact: true, path: "/dashboard/sales", name: "Sales", component: Sales },
+  { exact: true, path: "/dashboard/server", name: "Server", component: Server },
+  { exact: true, path: "/dashboard/analytics", name: "Analaytics", component: Analaytics },
   ...
   ...
 ]
@@ -41,7 +39,7 @@ export default Route
 
 ## Add menu item
 
-To add menu items you can use `pangong/src/menu-items.js` file. Below code we have show how you can use new menu item.
+To add menu items you can use `mintone/src/menu-items.js` file. Below code we have show how you can use new menu item.
 
 {% tabs %}
 {% tab title="menus.js" %}
@@ -61,16 +59,16 @@ export default {
                     icon: 'feather icon-home',
                     children: [
                         {
-                            id: 'analytics',
-                            title: 'Analytics',
+                            id: 'server',
+                            title: 'Server',
                             type: 'item',
-                            url: '/dashboard/analytics'
+                            url: '/dashboard/server'
                         },
                         {
-                            id: 'sales',
-                            title: 'Sales',
+                            id: 'shop',
+                            title: 'Shop',
                             type: 'item',
-                            url: '/dashboard/sales',
+                            url: '/dashboard/shop',
                             badge: {
                                 title: 'NEW',
                                 type: 'badge-danger'
