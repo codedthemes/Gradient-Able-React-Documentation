@@ -17,8 +17,8 @@ You can edit this file at **`[ ../src/config.ts ]`**
 | **headerFixedLayout** | true | Boolean | `true`, `false` |
 | **boxLayout** | false | Boolean | `true`, `false` |
 
-{% code-tabs %}
-{% code-tabs-item title="config.js" %}
+{% tabs %}
+{% tab title="config.js" %}
 ```javascript
 export default {
     defaultPath: '/dashboard/analytics',
@@ -35,6 +35,6 @@ export default {
     boxLayout: false
 };
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 

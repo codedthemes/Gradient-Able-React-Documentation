@@ -12,8 +12,8 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 Open `pangong/src/routse.js` and `pangong/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
 
-{% code-tabs %}
-{% code-tabs-item title="router.js" %}
+{% tabs %}
+{% tab title="router.js" %}
 ```javascript
 import { lazy } from 'react';
 
@@ -36,15 +36,15 @@ const Route = [
 ]
 export default Route
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Add menu item
 
 To add menu items you can use `pangong/src/menu-items.js` file. Below code we have show how you can use new menu item.
 
-{% code-tabs %}
-{% code-tabs-item title="menus.js" %}
+{% tabs %}
+{% tab title="menus.js" %}
 ```javascript
 export default {
     items: [
@@ -156,6 +156,6 @@ export default {
     ]
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
