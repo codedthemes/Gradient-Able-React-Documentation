@@ -1,5 +1,5 @@
 ---
-description: Things to know before you start with Pangong
+description: Things to know before you start with Mintone
 ---
 
 # Getting Started
