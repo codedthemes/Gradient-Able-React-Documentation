@@ -1,5 +1,5 @@
 ---
-description: Things to know before you start with Mintone
+description: Things to know before you start with Gradient Able
 ---
 
 # Getting Started
