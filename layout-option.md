@@ -56,5 +56,3 @@ You can edit this file at **`[ ../src/config.ts ]`**
 {% endtab %}
 {% endtabs %}
 
-
-

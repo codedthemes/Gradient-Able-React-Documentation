@@ -28,7 +28,6 @@ export default {
     navFixedLayout: true,
     headerFixedLayout: true
 };
-
 ```
 {% endtab %}
 {% endtabs %}

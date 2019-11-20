@@ -1,12 +1,12 @@
 ---
-description: Mintone - React + Redux Bootstrap 4 Admin Template
+description: Gradient Able - React + Redux Bootstrap 4 Admin Template
 ---
 
 # Introduction
 
-**Mintone** is the most developer friendly & highly customization **React + Redux Admin Template** based on Create React App, Redux & Bootstrap 4.
+**Gradient Able** is the most developer friendly & highly customization **React + Redux Admin Template** based on Create React App, Redux & Bootstrap 4.
 
-We’ve followed best industry standards to make our product easy, fast & highly scalable to work with. **Mintone** is the most convenient react admin dashboard template for developers as its made with React Components, Create React App, Redux, clean code and fully documented which allows you to build eye-catching, high-quality, high-performance responsive single page applications.
+We’ve followed best industry standards to make our product easy, fast & highly scalable to work with. **Gradient Able** is the most convenient react admin dashboard template for developers as its made with React Components, Create React App, Redux, clean code and fully documented which allows you to build eye-catching, high-quality, high-performance responsive single page applications.
 
 ## Features
 
