@@ -18,8 +18,8 @@ You can edit this file at **`[ ../src/config.ts ]`**
 {% tab title="config.js" %}
 ```javascript
 export default {
-    defaultPath: '/dashboard/server',
-    basename: '/mintone/react/default', // only at build time to set, like ///mintone/react/default
+    defaultPath: '/dashboard/analytics',
+    basename: '/gradient-able/react/default', // only at build time to set, like ///gradient-able/react/default
     layout: 'vertical', // vertical, horizontal
     collapseMenu: false, // mini-menu
     layoutType: 'menu-light', // menu-dark, menu-light
