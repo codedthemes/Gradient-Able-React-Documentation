@@ -7,27 +7,32 @@ You can edit this file at **`[ ../src/config.ts ]`**
 | **Option** | **Default** | **Data Type** | **Description** |
 | :--- | :--- | :--- | :--- |
 | **layout** | vertical | String | `vertical`, `horizontal` |
+| **subLayout** | - | String | `horizontal-2` \(only used for layout is horizontal\) |
 | **collapseMenu** | false | Boolean | `true`, `false` |
 | **layoutType** | menu-dark | String | `menu-dark`, `menu-light`, `dark` |
-| **headerBackColor** | header-default | String | `default-header`,`header-blue`, `header-red`, `header-purple`, `header-info`,  `header-green`,`header-dark` |
-| **fullWidthLayout** | false | Boolean | `true`, `false` |
+| **headerBackColor** | header-blue | String | `header-blue`, `header-red`, `header-purple`, `header-info`, `header-dark`, `header-orenge`, `header-green`, `header-yellow`, `header-orchidgreen`, `header-indigogreen`, `header-darkgreen`, `header-darkblue` |
+| **rtlLayout** | false | Boolean | `true`, `false` |
 | **navFixedLayout** | true | Boolean | `true`, `false` |
 | **headerFixedLayout** | true | Boolean | `true`, `false` |
+| **boxLayout** | false | Boolean | `true`, `false` |
 
 {% tabs %}
 {% tab title="config.js" %}
 ```javascript
 export default {
-    defaultPath: '/dashboard/analytics',
-    basename: '/gradient-able/react/default', // only at build time to set, like ///gradient-able/react/default
+    defaultPath: '/sample-page',
+    basename: '/gradient-able/react/default', // only at build time to set, like //gradient-able/react/
     layout: 'vertical', // vertical, horizontal
+    subLayout: '', // horizontal-2
     collapseMenu: false, // mini-menu
-    layoutType: 'menu-light', // menu-dark, menu-light
-    headerBackColor: '', // header-blue, header-red, header-purple, header-info, header-dark
-    fullWidthLayout: false,
+    layoutType: 'menu-light', // menu-dark, menu-light, dark
+    headerBackColor: 'header-blue', // header-blue, header-red, header-purple, header-info, header-green header-dark
+    rtlLayout: false,
     navFixedLayout: true,
-    headerFixedLayout: true
+    headerFixedLayout: true,
+    boxLayout: false
 };
+
 ```
 {% endtab %}
 {% endtabs %}
