@@ -23,9 +23,9 @@ We’ve followed best industry standards to make our product easy, fast & highly
 ## Technical Specification  \(Credits 🙏\)
 
 * Reactjs \(**16.11.0**\)
-* Latest [Bootstrap](https://getbootstrap.com/) 4 Stable \(v4.3.1\)
+* Latest [**Bootstrap**](https://getbootstrap.com/) ****4 Stable \(v4.3.1\)
 * SASS Powered
-* [Create React App](https://github.com/facebook/create-react-app) 
-* [Redux](https://redux.js.org/)
-* [React Router](https://github.com/ReactTraining/react-router) 
+* \*\*\*\*[**Create React App**](https://github.com/facebook/create-react-app) ****
+* [**Redux**](https://redux.js.org/)\*\*\*\*
+* \*\*\*\*[**React Router**](https://github.com/ReactTraining/react-router) ****
 
