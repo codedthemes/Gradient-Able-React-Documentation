@@ -11,10 +11,11 @@ We’ve followed best industry standards to make our product easy, fast & highly
 ## Features
 
 * Fully Responsive Layout 
-* 4+ Dashboard, 150+ Widget Cards
+* 2 Dashboard, **380+ Widget** Cards
 * SASS Powered
-* 100+ Pages
+* **210+ Pages**
 * Workable Application
+* Live Menu Customize
 * 6 months of free support included
 * Easy to Build and Setup
 * Clear Cut Code style
