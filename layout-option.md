@@ -81,3 +81,22 @@ You can edit this file at **`[ ../src/config.ts ]`**
 {% endtab %}
 {% endtabs %}
 
+## Horizontal Layouts
+
+{% tabs %}
+{% tab title="Horizontal Layouts" %}
+* layout: `horizontal`
+* subLayout: `horizontal-2`
+* navFixedLayout: `false`
+* headerFixedLayout: `false`
+{% endtab %}
+
+{% tab title="RTL Layout" %}
+* layout: `horizontal`
+* subLayout: `horizontal-2`
+* navFixedLayout: `false`
+* headerFixedLayout: `false`
+* rtlLayout: `true`
+{% endtab %}
+{% endtabs %}
+
