@@ -2,10 +2,10 @@
 
 ## Project structure
 
-Under the `mintone/`folder you will find the project folder structure.
+Under the `gradient-able/`folder you will find the project folder structure.
 
 ```text
-mintone/
+gradient-able/
 ├── .gitignore
 ├── package.json            -> Package json file.
 ├── README.md               -> Creat react app Readme file
@@ -37,7 +37,7 @@ mintone/
 
 ## SCSS structure
 
-Under the `mintone/src/assets/scss/`folder you will find the following folder structure.
+Under the `gradient-able/src/assets/scss/`folder you will find the following folder structure.
 
 ```text
 SCSS/
