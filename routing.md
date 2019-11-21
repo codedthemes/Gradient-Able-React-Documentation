@@ -10,7 +10,7 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 ## Configure route
 
-Open `mintone/src/routse.js` and `mintone/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
+Open `gradient-able/src/routse.js` and `gradient-able/src/routes.js`You will find the below example code. In below code we have show how you can add new page route.
 
 {% tabs %}
 {% tab title="router.js" %}
@@ -39,7 +39,7 @@ export default Route
 
 ## Add menu item
 
-To add menu items you can use `mintone/src/menu-items.js` file. Below code we have show how you can use new menu item.
+To add menu items you can use `gradient-able/src/menu-items.js` file. Below code we have show how you can use new menu item.
 
 {% tabs %}
 {% tab title="menus.js" %}
